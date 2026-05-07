@@ -1,0 +1,19 @@
+pub mod carbon;
+pub mod waste;
+pub mod user;
+pub mod report;
+pub mod company;
+pub mod shopkeeper;
+pub mod invoice;
+pub mod bin_location;
+pub mod product;
+
+pub use carbon::*;
+pub use waste::*;
+pub use user::*;
+pub use report::*;
+pub use company::*;
+pub use shopkeeper::*;
+pub use invoice::*;
+pub use bin_location::*;
+pub use product::*;
